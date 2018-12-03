@@ -1,0 +1,11 @@
+1. int shemodis da unda gamoitano max cifri mag ricxvshi
+2. int shemodis da unda daitvalo am integershi gansxvavebuli cifrebis raodenoba (advili: listis gamoyenebis ufleba rtuli: magas ver gaaketeb mere agnixsni)
+3. int shemodis da mag intshi shemavali cifrebi unda daalgo klebis mixeedvit. mag: 10355 >> 55310 (NO SORT allowed)
+
+--arcert amocanashi ar mosula gamoiyeno pitonis builtin funqciebi-- 
+
+4. stringi shemodis da unda daitvalo qvestringebis raodenoba romelic palindromia 
+5. shemodis stringi romelic shedgeba frchxilebisgan [{( mag: {}{}[][[)({} da unda tqva TRUE aris tu FALSE anu matematikurad sworad aris tu ara chawerili
+amistvis gasarchevia STACK
+6. teoria: BIG OMEGA NOTATION. ALGORITHM COMPLEXITY O(n), O(n^2), romeli jobia da ratom jobia.
+ 
