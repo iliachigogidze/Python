@@ -8,4 +8,14 @@
 5. shemodis stringi romelic shedgeba frchxilebisgan [{( mag: {}{}[][[)({} da unda tqva TRUE aris tu FALSE anu matematikurad sworad aris tu ara chawerili
 amistvis gasarchevia STACK
 6. teoria: BIG OMEGA NOTATION. ALGORITHM COMPLEXITY O(n), O(n^2), romeli jobia da ratom jobia.
+
+
+THEORY: 3.12.2018
+
+7. bitwise operators basic doneze gaarchie.
+8. stack, queue, linked-list (doubly, single linked lists).
+9. dawere funqcia romelshic shedis ori matrica (listebis listi an sheni matricis klasi
+sheqmeni) da gamodis mati namravli.
+10. dawere programa romelic ricxvebis masividan amoshlis gameorebul ricxvebs da bolos
+dagitovebs marto unikalur ricxvebs igive tanmimdevrobit rac tavidanve iyo. 3 4 4 5 1 5 -> 3 4 5 1
  
