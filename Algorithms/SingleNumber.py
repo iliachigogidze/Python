@@ -7,21 +7,20 @@ mag:
 
 
 def singleNumber(nums):
-    print(nums)
-    numbers = [0] * 10
-    for num in nums:
-        numbers[num % 10] += 1
-    print('NUMBERS: ', numbers)
-    
-    for i in range(len(numbers)):
-        print('i: ', numbers[i])
-        if numbers[i] == 1:
-            return 'ANSWER: ', i
+    print('NUMS: ', nums)
+    for i in nums:
+        counter = 0
+        for j in nums:
+            if i == j:
+                #print('i = ',i, ' j = ',j)
+                counter += 1
+        if counter == 1:
+            return i
     return False
 
-print(singleNumber([2,3,3]))
-print(singleNumber([3,3,2,2,1]))
-print(singleNumber([0,1,1,3,3,0,5]))
+print('UNIQUE: ', singleNumber([2,3,3]))
+print('UNIQUE: ', singleNumber([3,3,2,2,1]))
+print('UNIQUE: ', singleNumber([0,-1,-1,333,333,0,5]))
 
 
 

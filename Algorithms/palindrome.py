@@ -84,4 +84,7 @@ def main(n):
 
 
 x = input("Enter string: ")
-print(main(x))        
+print(main(x))    
+
+# NOTE amas ro miiyvan bolomde dauwere test-ebic (shegidzlia gamoiyeno assert an unit test).
+# edge-case-ebze shemowmeba ar dagaviwydes.
