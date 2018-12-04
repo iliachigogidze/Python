@@ -8,4 +8,5 @@
 5. shemodis stringi romelic shedgeba frchxilebisgan [{( mag: {}{}[][[)({} da unda tqva TRUE aris tu FALSE anu matematikurad sworad aris tu ara chawerili
 amistvis gasarchevia STACK
 6. teoria: BIG OMEGA NOTATION. ALGORITHM COMPLEXITY O(n), O(n^2), romeli jobia da ratom jobia.
+7. bitwise operators: <<, >>, |, &, ~, ^
  
