@@ -5,28 +5,64 @@ def problem(n):
    
     open_braces = ['{', '(', '[']
     close_braces = ['}', ')', ']']
+    stack= []
 
-    answer = False
     x = 0
     y = 0
     l = len(n)
 
     if l % 2 != 0:
-        return answer
+        return False
+
+    for i in close_braces:
+        if n[0] == i:
+            return False
     
-    x = int(l / 2 - 1)
-    y = int(l / 2)
-
-    for i in range(int(l/2)):
-        if n[x] != n[y]:
-            return answer
-        x += -1
-        y += 1   
-
-    answer = True     
-    return answer
-
-
+    for i in open_braces:
+        if n[l-1] == i:
+            return False
+    
+    stack.append(n[0])
+    for i in range(1,l):
+        print('STACK: ', stack, '   LEN: ', len(stack))
+        if n[i] == '}': #stack[len(stack) - 1]
+            if stack[len(stack) - 1] == '{':
+                stack.pop()
+            else:                 
+                stack.append(n[i])
+        elif n[i] == ']':
+            if stack[len(stack) - 1] == '[':
+                stack.pop()
+            else:
+                stack.append(n[i])
+        elif n[i] == ')':
+            if stack[len(stack) - 1] == '(':
+                stack.pop()
+            else:
+                stack.append(n[i])
+        elif n[i] == '{': #stack[len(stack) - 1]
+            if stack[len(stack) - 1] == '}':
+                stack.pop()   
+            else:              
+                stack.append(n[i])
+        elif n[i] == '[':
+            if stack[len(stack) - 1] == ']':
+                stack.pop()
+            else:
+                stack.append(n[i])
+        elif n[i] == '(':
+            if stack[len(stack) - 1] == ')':
+                stack.pop()
+            else:
+                stack.append(n[i])
+        else:
+            return False
+    
+    
+    if len(stack) == 0:
+        return True
+    else:
+        return False
 
 
 x = (input("Enter Braces: "))
