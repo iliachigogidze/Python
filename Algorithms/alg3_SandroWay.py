@@ -12,10 +12,10 @@ def main(n):
         n //= 10
 
 
-    for i in range(len(numbers)-1,-1,-1):
+    for i in range(len(numbers)-1,-1,-1): # NOTE len(numbers) ar ginda imitoro ici ro 10-s udris yoveltvis
         while numbers[i]:
             answer = answer * 10 + i
-            numbers[i] += -1 
+            numbers[i] += -1 # NOTE -= 1 jobia 
 
     return answer
 

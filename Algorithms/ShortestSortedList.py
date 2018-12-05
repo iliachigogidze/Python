@@ -21,7 +21,9 @@ def main(nums):
             temp_list[i:j] = sorted(temp_list[i:j])
             #print('TEMP: ', temp_list)
             #print(temp_list[i:j] == sorted(temp_list[i:j]))
-            if temp_list == sorted(temp_list) and (j-i) < max_count:
+
+            # NOTE es ar varga! es xazi imushavebs O(N*LOGN) shi roca shileba gaketdes O(N)-shi
+            if temp_list == sorted(temp_list) and (j-i) < max_count: 
                 max_count = j-i
             
             #print('MAX_COUNT: ', max_count)

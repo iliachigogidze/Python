@@ -21,3 +21,5 @@ def findDuplicate(nums):
 print('ANSWER: ', findDuplicate([1,3,4,2,2]))
 print('ANSWER: ', findDuplicate([1,3,4,4,2]))
 
+# es uares shemtxvevashi tu arc erti ar meordeba aris O(N^2) gaakete O(N) ro iyos uaresi.
+

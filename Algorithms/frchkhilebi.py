@@ -14,19 +14,25 @@ def problem(n):
     if l % 2 != 0:
         return False
 
+    # NOTE es for bloki shegilia shecvalo erti xazit: if n[i] in close_braces: return False
     for i in close_braces:
         if n[0] == i:
             return False
     
+    # NOTE esec winas pontshi
     for i in open_braces:
         if n[l-1] == i:
             return False
     
+
+    # NOTE !!!!!!!!!!!!!!!!
+    # WRONG SOLIUTION: (())() - amaze errors agdebs kodi vabshe. kargad dateste xolme.
+
     stack.append(n[0])
     for i in range(1,l):
         print('STACK: ', stack, '   LEN: ', len(stack))
         if n[i] == '}': #stack[len(stack) - 1]
-            if stack[len(stack) - 1] == '{':
+            if stack[len(stack) - 1] == '{': # NOTE igivea rac pirdapir -1
                 stack.pop()
             else:                 
                 stack.append(n[i])
