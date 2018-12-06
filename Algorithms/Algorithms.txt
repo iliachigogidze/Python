@@ -23,3 +23,6 @@ sheqmeni) da gamodis mati namravli.
 dagitovebs marto unikalur ricxvebs igive tanmimdevrobit rac tavidanve iyo. 3 4 4 5 1 5 -> 3 4 5 1
 >>>>>>> dac94ce2525ac2783af3155b3b33243db9449c4b
  
+
+11. rekursia
+12. list shemodis da unda datvalo elementebis jami rekursiit
