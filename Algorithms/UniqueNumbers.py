@@ -21,6 +21,7 @@ def uniques(nums):
 
     return uniques
 
+# NOTE saxeli aralogikuradaa darqmeuli. is_unique logikurad True unda iyos tu Uniquea da ara piriqit.
 def in_uniques(i, uniques):
     for x in uniques:
         if x == i:
