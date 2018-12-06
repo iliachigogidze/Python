@@ -31,39 +31,40 @@ def problem(n):
     stack.append(n[0])
     for i in range(1,l):
         print('STACK: ', stack, '   LEN: ', len(stack))
-        if n[i] == '}': #stack[len(stack) - 1]
-            if stack[len(stack) - 1] == '{': # NOTE igivea rac pirdapir -1
-                stack.pop()
-            else:                 
-                stack.append(n[i])
-        elif n[i] == ']':
-            if stack[len(stack) - 1] == '[':
-                stack.pop()
+        if stack: 
+            if n[i] == '}': #stack[len(stack) - 1]
+                if stack[len(stack) - 1] == '{': # NOTE igivea rac pirdapir -1
+                    stack.pop()
+                else:                 
+                    stack.append(n[i])
+            elif n[i] == ']':
+                if stack[len(stack) - 1] == '[':
+                    stack.pop()
+                else:
+                    stack.append(n[i])
+            elif n[i] == ')':
+                if stack[len(stack) - 1] == '(':
+                    stack.pop()
+                else:
+                    stack.append(n[i])
+            elif n[i] == '{': #stack[len(stack) - 1]
+                if stack[len(stack) - 1] == '}':
+                    stack.pop()   
+                else:              
+                    stack.append(n[i])
+            elif n[i] == '[':
+                if stack[len(stack) - 1] == ']':
+                    stack.pop()
+                else:
+                    stack.append(n[i])
+            elif n[i] == '(':
+                if stack[len(stack) - 1] == ')':
+                    stack.pop()
+                else:
+                    stack.append(n[i])
             else:
-                stack.append(n[i])
-        elif n[i] == ')':
-            if stack[len(stack) - 1] == '(':
-                stack.pop()
-            else:
-                stack.append(n[i])
-        elif n[i] == '{': #stack[len(stack) - 1]
-            if stack[len(stack) - 1] == '}':
-                stack.pop()   
-            else:              
-                stack.append(n[i])
-        elif n[i] == '[':
-            if stack[len(stack) - 1] == ']':
-                stack.pop()
-            else:
-                stack.append(n[i])
-        elif n[i] == '(':
-            if stack[len(stack) - 1] == ')':
-                stack.pop()
-            else:
-                stack.append(n[i])
-        else:
-            return False
-    
+                return False
+        
     
     if len(stack) == 0:
         return True
