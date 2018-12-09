@@ -26,3 +26,8 @@ dagitovebs marto unikalur ricxvebs igive tanmimdevrobit rac tavidanve iyo. 3 4 4
 
 11. rekursia
 12. list shemodis da unda datvalo elementebis jami rekursiit
+
+13. shemodis listi da am listshi ertnairi mimdebare ricxvebi unda gaskdes. 
+14. shemodis matrica sadac x nishnavs xmelets da 0 nishnavs zgvas. unda ipovo kundzulebis raodenoba
+TEORIA:
+15. frchxilebis amocana tavidan uketesi metodit

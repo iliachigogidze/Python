@@ -14,7 +14,7 @@ def problem(n):
     if l % 2 != 0:
         return False
 
-    # NOTE es for bloki shegilia shecvalo erti xazit: if n[i] in close_braces: return False
+    # NOTE es for bloki shegilia shecvalo erti xazit: if n[0] in close_braces: return False
     for i in close_braces:
         if n[0] == i:
             return False
@@ -77,3 +77,4 @@ print(problem(x))
 
 
 # NOTE es amoxsna is fucking wrong! 
+# NOTE tavidanaa dasaweri axali tesloba metodit
