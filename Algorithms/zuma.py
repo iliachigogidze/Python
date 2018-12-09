@@ -29,31 +29,6 @@ def main(nums):
         print('__________________________________')
     return stack
 
-    # counter = 1
-    # for i in nums:
-    #     if not stack:
-    #         stack.append(i)
-    #     else:
-    #         while True:        
-    #             counter = 0
-    #             if stack[len(stack) - 1] == i:
-    #                 counter += 1
-    #                 stack.append(i)
-    #                 break
-    #             else:
-    #                 if counter > 1:
-    #                     for j in range(counter):
-    #                         stack.pop()
-    #                         counter -= 1    
-    #                 stack.append(i)
-    #                 if stack[len(stack) - 1] != i:
-    #                     break
-                    
-
-        
-
-    # return stack
-
 
 print('ANSWER: ', main([1,1,1,2,3,3,4,5,5,4,2]))
             

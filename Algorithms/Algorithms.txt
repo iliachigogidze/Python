@@ -31,3 +31,10 @@ dagitovebs marto unikalur ricxvebs igive tanmimdevrobit rac tavidanve iyo. 3 4 4
 14. shemodis matrica sadac x nishnavs xmelets da 0 nishnavs zgvas. unda ipovo kundzulebis raodenoba
 TEORIA:
 15. frchxilebis amocana tavidan uketesi metodit
+
+
+
+
+-----------------------
+alg2 tavidan
+singleNumber with bitwise and recursion
