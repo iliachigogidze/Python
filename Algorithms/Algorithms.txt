@@ -38,3 +38,9 @@ TEORIA:
 -----------------------
 alg2 tavidan
 singleNumber with bitwise and recursion
+rekursia da bitwise unda viswavlo kargad
+
+graph
+depth first search, breadth first search
+
+16. shemodis n da unda dawero yvela varianti romlitac es ricxvi dgeba. integerebis jami
