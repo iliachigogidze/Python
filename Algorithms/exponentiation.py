@@ -14,8 +14,9 @@ def recursion(n, e):
     elif e < 0:
         n = 1/n
         e = -e
+        return n * recursion(n, e-1)       
     else:
-        print('n: ', n, 'e: ',e)
+        #print('n: ', n, 'e: ',e)
         return n * recursion(n, e-1)
     
 
