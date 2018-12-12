@@ -47,3 +47,25 @@ depth first search, breadth first search
 
 strin reverse with recursion
 fibonaci with recursion
+
+
+
+
+# NEW TASKS (12 DECEMBER, 2018)
+17. Given list of distinct letters, generate all possible words so that each letter is used only once per word.
+Example: ['b', 'a', 'c'] -> abc acb bac bca cab cba
+18. Given a list of distinct letters and a positive number N, generate all possible palindromes having the length not greater than N. Single word can be used multiple times per palindrome. Example: ['a', 'b'], N=3  a aa aaa b bb bbb aba bab
+19. Read about merge sort algorithm and implement one in python on your own. Think about the time and space complexity of your algorithm? Justify your answer by proving it mathematically.
+20. Given a positive integer N, generate all binary strings of length N. Example: N=3 -> 000 001 010 011 100 101 110 111
+21. Given a positive integer N, generate all binary string of length N. Each string should have no more than 3 consequitive '1'-s in it. Example: N=5. 11110 is prohibited because it has 4 ones in a row. 
+22. Given a matrix implement a procedure that rotates matrix by 90 degrees clockwise.
+23. Implement a function that given two strings returns true if and only if they are anagrams. Your program must have running time complexity of O(N) where N=max(len(A), len(B)) max length of given two strings.   
+
+
+
+
+
+
+
+
+
