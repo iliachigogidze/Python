@@ -44,3 +44,6 @@ graph
 depth first search, breadth first search
 
 16. shemodis n da unda dawero yvela varianti romlitac es ricxvi dgeba. integerebis jami
+
+strin reverse with recursion
+fibonaci with recursion

@@ -2,38 +2,21 @@
 5. Write a Python program to solve the Fibonacci sequence using recursion
 '''
 
-sequence = []
-
 def main(n):
-    print('NUMBER IS: ', n)
+    print('Number is: ', n)
 
-    if n <= 0:
-        print('Enter positive integer')
-    else:
-        recursion(n)
-        return sequence
-        
+    return recursion(n)
+
 def recursion(n):
-    
-    if n == 1:
-        sequence.append(1)
-        return 1
-    elif n == 2:
-        sequence.append(1)
-        return 1
+    if n == 0:
+        return [0]
+    elif n == 1:
+        return [0,1]
     else:
-        a = recursion(n - 1)
-        b = recursion(n - 2)
-        x = a + b
-        sequence.append(x)
-        return x
+        # x = recursion(n-1) + recursion(n-2) # es rato aris cudi??
+        x = recursion(n - 1)
+        print(x)
+        return x + [x[-1] + x[-2]] 
 
-# def recursion(n):
-#     if n in set([1,2]):
-#         return 1
-#     else:
-#         return recursion(n-1) + recursion(n-2)
-
-        
 
 print('ANSWER: ', main(7))
