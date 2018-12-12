@@ -47,3 +47,7 @@ depth first search, breadth first search
 
 strin reverse with recursion
 fibonaci with recursion
+
+17. binary tree height
+18. mdinare 10 qvit aris 11 nawilad dayofili. bayays aqvs 2 modzraoba: 1) pirvelive qvaze gadaxtoba 2) erti qvis gamotovebit, meore qvaze daxtoma.
+ukan modzraoba ar sheudzlia. 
