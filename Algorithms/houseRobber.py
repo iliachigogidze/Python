@@ -19,14 +19,7 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
 
 def rob(nums):
     print('NUMS: ', nums)
-    total = 0
-    temp = 0
-    l = len(sum)
-    for i in range(2):
-        for j in range(i,l,1):
-            temp = nums[j]
-            if total < 
-
+    
 
 
 
