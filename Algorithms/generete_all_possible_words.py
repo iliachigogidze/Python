@@ -37,13 +37,13 @@ def concatenate(last_char, words):
 
 print('ANSWER: ', main('abc'), '  |  len = ',len(main('abc')))
 print('____________________________________')
-print('ANSWER: ', main('abcd'))
+print('ANSWER: ', main('abcd'), '  |  len = ',len(main('abcd')))
 print('____________________________________')
-print('ANSWER: ', main('a'))
+print('ANSWER: ', main('a'), '  |  len = ',len(main('a')))
 print('____________________________________')
-print('ANSWER: ', main('abcde'))
+print('ANSWER: ', main('abcde'), '  |  len = ',len(main('abcde')))
 print('____________________________________')
-print('ANSWER: ', main('aocm'))
+print('ANSWER: ', main('aocm'), '  |  len = ',len(main('aocm')))
 print('____________________________________')
 
 
