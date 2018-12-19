@@ -75,3 +75,7 @@ Example: ['b', 'a', 'c'] -> abc acb bac bca cab cba
 18. mdinare 10 qvit aris 11 nawilad dayofili. bayays aqvs 2 modzraoba: 1) pirvelive qvaze gadaxtoba 2) erti qvis gamotovebit, meore qvaze daxtoma.
 ukan modzraoba ar sheudzlia. 
 >>>>>>> aebf2f28275cbf69725ec9d99be8479c9ef5e7a4
+
+
+24. a2b2[ac] >> abbacac
+25. gantolebis sxvanairad chawera
