@@ -38,14 +38,12 @@ def main(exp):
 
     for c in exp[::-1]:
         if c in sandro:
-            op, n = sandro[c]
-            l = [stack.pop() for _ in range(n)]            
-            stack.append(op(*l))
-            print(stack)
+            op, n = sandro[c]         
+            stack.append(op(*[stack.pop() for _ in range(n)]))
         else:
             stack.append(float(c))
 
-    return stack
+    return stack.pop()
 
 
 
