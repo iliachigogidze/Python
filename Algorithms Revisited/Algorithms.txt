@@ -1,0 +1,88 @@
+1. int shemodis da unda gamoitano max cifri mag ricxvshi
+2. int shemodis da unda daitvalo am integershi gansxvavebuli cifrebis raodenoba (advili: listis gamoyenebis ufleba rtuli: magas ver gaaketeb mere agnixsni)
+3. int shemodis da mag intshi shemavali cifrebi unda daalgo klebis mixeedvit. mag: 10355 >> 55310 (NO SORT allowed)
+
+--arcert amocanashi ar mosula gamoiyeno pitonis builtin funqciebi-- 
+
+4. stringi shemodis da unda daitvalo qvestringebis raodenoba romelic palindromia 
+5. shemodis stringi romelic shedgeba frchxilebisgan [{( mag: {}{}[][[)({} da unda tqva TRUE aris tu FALSE anu matematikurad sworad aris tu ara chawerili
+amistvis gasarchevia STACK
+6. teoria: BIG OMEGA NOTATION. ALGORITHM COMPLEXITY O(n), O(n^2), romeli jobia da ratom jobia.
+<<<<<<< HEAD
+7. bitwise operators: <<, >>, |, &, ~, ^
+=======
+
+
+THEORY: 3.12.2018
+
+7. bitwise operators basic doneze gaarchie.
+8. stack, queue, linked-list (doubly, single linked lists).
+9. dawere funqcia romelshic shedis ori matrica (listebis listi an sheni matricis klasi
+sheqmeni) da gamodis mati namravli.
+10. dawere programa romelic ricxvebis masividan amoshlis gameorebul ricxvebs da bolos
+dagitovebs marto unikalur ricxvebs igive tanmimdevrobit rac tavidanve iyo. 3 4 4 5 1 5 -> 3 4 5 1
+>>>>>>> dac94ce2525ac2783af3155b3b33243db9449c4b
+ 
+
+11. rekursia
+12. list shemodis da unda datvalo elementebis jami rekursiit
+
+13. shemodis listi da am listshi ertnairi mimdebare ricxvebi unda gaskdes. 
+14. shemodis matrica sadac x nishnavs xmelets da 0 nishnavs zgvas. unda ipovo kundzulebis raodenoba
+TEORIA:
+15. frchxilebis amocana tavidan uketesi metodit
+
+
+
+
+-----------------------
+alg2 tavidan
+singleNumber with bitwise and recursion
+rekursia da bitwise unda viswavlo kargad
+
+graph
+depth first search, breadth first search
+
+16. shemodis n da unda dawero yvela varianti romlitac es ricxvi dgeba. integerebis jami
+
+strin reverse with recursion
+fibonaci with recursion
+
+<<<<<<< HEAD
+
+
+
+# NEW TASKS (12 DECEMBER, 2018)
+17. Given list of distinct letters, generate all possible words so that each letter is used only once per word.
+Example: ['b', 'a', 'c'] -> abc acb bac bca cab cba
+18. Given a list of distinct letters and a positive number N, generate all possible palindromes having the length not greater than N. Single word can be used multiple times per palindrome. Example: ['a', 'b'], N=3  a aa aaa b bb bbb aba bab
+19. Read about merge sort algorithm and implement one in python on your own. Think about the time and space complexity of your algorithm? Justify your answer by proving it mathematically.
+20. Given a positive integer N, generate all binary strings of length N. Example: N=3 -> 000 001 010 011 100 101 110 111
+21. Given a positive integer N, generate all binary string of length N. Each string should have no more than 3 consequitive '1'-s in it. Example: N=5. 11110 is prohibited because it has 4 ones in a row. 
+22. Given a matrix implement a procedure that rotates matrix by 90 degrees clockwise.
+23. Implement a function that given two strings returns true if and only if they are anagrams. Your program must have running time complexity of O(N) where N=max(len(A), len(B)) max length of given two strings.   
+
+
+
+
+
+
+
+
+
+=======
+17. binary tree height
+18. mdinare 10 qvit aris 11 nawilad dayofili. bayays aqvs 2 modzraoba: 1) pirvelive qvaze gadaxtoba 2) erti qvis gamotovebit, meore qvaze daxtoma.
+ukan modzraoba ar sheudzlia. 
+>>>>>>> aebf2f28275cbf69725ec9d99be8479c9ef5e7a4
+
+
+24. a2b2[ac] >> abbacac
+25. gantolebis sxvanairad chawera
+
+
+
+function(*l) = l aris listi. mag: [2,4,5] da roca win * <-- amas uwer es igivea rac chawero function(2,4,5)
+nonlocal i - gamoidzaxebs globalur cvlads
+
+26. ori monakveti shemodis (2, 7) anu x gherdze 2dan 7is chatvlit.
