@@ -16,8 +16,3 @@ def binary_search(numbers, target_value):
         return binary_search(numbers[:middle_point], target_value)
     return False
 
-print('Answer is: ', main([1,2,3,5,6,7],8))
-print('Answer is: ', main([1,2,3,5,6,7],7))
-print('Answer is: ', main([1],9))
-print('Answer is: ', main([1],1))
-print('Answer is: ', main([],1))

@@ -15,10 +15,9 @@ def binary_search(numbers:list, target_value:int) -> bool:
     return False
 
 print('Answer is: ', main([1,2,3,4,5,6],7))
-print('Answer is: ', main([1,2,3,4,5,6],6))
-print('Answer is: ', main([1,2,3,4,5,6,7],7))
-print('Answer is: ', main([1,2,3,4,5,6,7],6))
-print('Answer is: ', main([1],6))
+print('Answer is: ', main([1,4,5,8,9,14,14],1))
+print('Answer is: ', main([1,4,5,8,9,14,14,15],14))
 print('Answer is: ', main([1],1))
-print('Answer is: ', main([],1))
+print('Answer is: ', main([1,4,5,8,9,14,14,15],15))
+print('Answer is: ', main([1,4,5,8,9,14,14,15],17))
 
